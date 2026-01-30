@@ -1,0 +1,105 @@
+/* Author: Sebastian Jaculbe  */
+* {
+    box-sizing: border-box;
+}
+h1 { color:black; }
+h1 {font-family: 'Times New Roman', Times, serif;}
+h2 {font-family: 'Times New Roman', Times, serif;}
+h3 {font-family: 'Times New Roman', Times, serif;}
+h4 {font-family: 'Times New Roman', Times, serif;}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+}
+header {
+    background-color:darkgoldenrod;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color:darkgray;
+    width: auto;
+    height: 25px;
+}
+nav a:link {
+    color: black;
+    border-color:darkgrey;
+    border-style: solid;
+    border-width: 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:dimgray;
+    border-color:darkgrey;
+    border-style: solid;
+    border-width: 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+nav a:visited {
+    color:black;
+    border-color:darkgrey;
+    border-style: solid;
+    border-width: 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+nav a:active {
+    color:black;
+    border-color:darkgrey;
+    border-style: solid;
+    border-width: 0px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+aside {
+    float: right;
+    width: 500px;
+}
+section {
+    width: 800px;
+}
+article {
+    width: auto;
+}
+footer {
+    text-align: center;
+    width: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ul {
+    list-style-type: square;
+    font-size: 20px;
+    list-style-position: inside;
+}
+li a:link {
+    color:blue;
+}
+li a:visited {
+    color:purple;
+}
+li a:hover {
+    color:green;
+}
+li a:active {
+    color:blue;
+}
