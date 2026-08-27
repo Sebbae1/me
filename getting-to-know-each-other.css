@@ -103,3 +103,7 @@ li a:hover {
 li a:active {
     color:blue;
 }
+.update {
+    text-align: center;
+    color: green;
+}
